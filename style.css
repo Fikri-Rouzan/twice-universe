@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+* {
+  font-family: "Nunito";
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  padding: 0;
+  margin: 0;
+}
+
+*::selection {
+  background: #ff00ff;
+  color: #fbfbfb;
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  color: #393e46;
+}
+
+body {
+  background: #fbfbfb;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fcc89b;
+  padding: 2rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+header > .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #393e46;
+}
+
+header > .logo:hover {
+  color: #ff00ff;
+}
+
+header > .navbar > a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: rgb(15, 15, 15);
+  border-radius: 1.3rem;
+}
+
+header > .navbar > a:hover {
+  color: #ff00ff;
+}
+
+#menu {
+  font-size: 3rem;
+  cursor: pointer;
+  border: 0.1rem solid #393e46;
+  border-radius: 1.3rem;
+  padding: 0.5rem 1.5rem;
+  display: none;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.twice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.twice > .logo {
+  flex: 1 1 40rem;
+}
+
+.twice > .logo > img {
+  width: 100%;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+  cursor: pointer;
+}
+
+.twice > .fandom {
+  flex: 1 1 40rem;
+}
+
+.twice > .fandom > img {
+  width: 100%;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(3rem);
+  }
+}
+
+.about > .card > .card-box {
+  text-align: center;
+  padding: 2rem;
+  border: 1rem solid #fbfbfb;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  flex: 1 1 30rem;
+  cursor: pointer;
+  background: #f5f5f5;
+}
+
+.about > .card > .card-box > img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 90%;
+  border: 1rem solid #fcc89b;
+  margin: 1.5rem 0;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about > .card > .card-box > img:hover {
+  transform: scale(1.2);
+}
+
+.about > .card > .card-box > p {
+  text-align: justify;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.history > .card > .card-box {
+  flex: 1 1 50rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 2rem;
+  margin: 3rem 0;
+}
+
+.history > .card > .card-box > .content {
+  text-align: center;
+  background: #fbfbfb;
+  padding: 2rem;
+}
+
+.history > .card > .card-box > .content > h3 {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+.history > .card > .card-box > .content > h4 {
+  text-align: justify;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.history > .card > .card-box > .content > p {
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-align: justify;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.member > .card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.member > .card > .card-box {
+  flex: 1 1 50rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.member > .card > .card-box > .content {
+  text-align: center;
+  background: #fbfbfb;
+  padding: 2rem;
+}
+
+.member > .card > .card-box > .content > h3 {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.member > .card > .card-box > .content > img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  border: 1rem solid #fcc89b;
+  margin: 1.5rem 0;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.member > .card > .card-box > .content > img:hover {
+  transform: scale(1.2);
+}
+
+.member > .card > .card-box > .content > table {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.member > .card > .card-box > .content > table td {
+  padding: 0.5rem 1rem;
+}
+
+.information > .card > .card-box {
+  text-align: center;
+  padding: 2rem;
+  border: 1rem solid #fbfbfb;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  flex: 1 1 30rem;
+  cursor: pointer;
+  background: #f5f5f5;
+}
+
+.information > .card > .card-box > img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  border: 1rem solid #fcc89b;
+  margin: 1.5rem 0;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.information > .card > .card-box > img:hover {
+  transform: scale(1.2);
+}
+
+.information > .card > .card-box > table {
+  text-align: left;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.information > .card > .card-box > table td {
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  background: #fcc89b;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu {
+    display: initial;
+  }
+
+  header > .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fbfbfb;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header > .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header > .navbar > a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    display: block;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-left: #fcc89b 0.5rem solid;
+    background: #fbfbfb;
+  }
+}
