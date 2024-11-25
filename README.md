@@ -7,3 +7,4 @@ Twice Website was the final project I worked on to complete the Belajar Dasar Pe
 Technologies Used:
 - Programming Languages: HTML, JavaScript, and CSS.
 - Software: Visual Studio Code and GitHub.
+- Deployment: GitHub Pages.
