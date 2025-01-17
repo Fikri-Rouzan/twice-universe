@@ -15,5 +15,5 @@ TWICE Universe is a website where users can view information about the girl grou
 - Programming Language: JavaScript.
 - Markup Language: HTML.
 - Stylesheet Language: CSS.
-- Software: Visual Studio Code and GitHub.
+- Software: Visual Studio Code.
 - Deployment: Netlify.
