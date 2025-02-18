@@ -451,10 +451,12 @@
     </main>
 
     <footer>
-      <h2>(Dicoding) Belajar Dasar Pemrograman Web &copy 2024</h2>
-      <h2>Muhammad Fikri Rouzan Ash Shidik</h2>
+      <h2>&copy <span id="year"></span> Muhammad Fikri Rouzan Ash Shidik</h2>
     </footer>
 
     <script src="src/script.js"></script>
+    <script>
+      document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
   </body>
 </html>
