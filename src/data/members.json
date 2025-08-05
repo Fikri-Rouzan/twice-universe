@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Park Ji Hyo",
+    "image": "/src/assets/members/jihyo.jpg",
+    "position": "Leader, Main Vocalist",
+    "birth": "Guri, Korea Selatan, 1 Februari 1997",
+    "zodiac": "Aquarius",
+    "height": "160 cm",
+    "weight": "49 kg"
+  },
+  {
+    "name": "Im Na Yeon",
+    "image": "/src/assets/members/nayeon.jpg",
+    "position": "Lead Vocalist, Lead Dancer, Center, Face of the Group",
+    "birth": "Seoul, Korea Selatan, 22 September 1995",
+    "zodiac": "Virgo",
+    "height": "163 cm",
+    "weight": "47 kg"
+  },
+  {
+    "name": "Yoo Jeong Yeon",
+    "image": "/src/assets/members/jeongyeon.jpg",
+    "position": "Lead Vocalist",
+    "birth": "Suwon, Korea Selatan, 1 November 1996",
+    "zodiac": "Scorpio",
+    "height": "167 cm",
+    "weight": "49.1 kg"
+  },
+  {
+    "name": "Hirai Momo",
+    "image": "/src/assets/members/momo.jpg",
+    "position": "Main Dancer, Sub Vocalist, Sub Rapper",
+    "birth": "Kyotanabe, Jepang, 9 November 1996",
+    "zodiac": "Scorpio",
+    "height": "167 cm",
+    "weight": "48.5 kg"
+  },
+  {
+    "name": "Minatozaki Sana",
+    "image": "/src/assets/members/sana.jpg",
+    "position": "Sub Vocalist",
+    "birth": "Osaka, Jepang, 29 Desember 1996",
+    "zodiac": "Capricorn",
+    "height": "168 cm",
+    "weight": "47 kg"
+  },
+  {
+    "name": "Myoui Mina",
+    "image": "/src/assets/members/mina.jpg",
+    "position": "Main Dancer, Sub Vocalist",
+    "birth": "San Antonio, Texas, Amerika Serikat, 24 Maret 1997",
+    "zodiac": "Aries",
+    "height": "163 cm",
+    "weight": "46 kg"
+  },
+  {
+    "name": "Kim Da Hyun",
+    "image": "/src/assets/members/dahyun.jpg",
+    "position": "Lead Rapper, Sub Vocalist",
+    "birth": "Seongnam, Korea Selatan, 28 Mei 1998",
+    "zodiac": "Gemini",
+    "height": "161 cm",
+    "weight": "48.9 kg"
+  },
+  {
+    "name": "Son Chae Young",
+    "image": "/src/assets/members/chaeyoung.jpg",
+    "position": "Main Rapper, Sub Vocalist",
+    "birth": "Seoul, Korea Selatan, 23 April 1999",
+    "zodiac": "Taurus",
+    "height": "158.9 cm",
+    "weight": "46 kg"
+  },
+  {
+    "name": "Chou Tzuyu",
+    "image": "/src/assets/members/tzuyu.jpg",
+    "position": "Lead Dancer, Sub Vocalist, Visual",
+    "birth": "Tainan, Taiwan, 14 Juni 1999",
+    "zodiac": "Gemini",
+    "height": "170 cm",
+    "weight": "48 kg"
+  }
+]
