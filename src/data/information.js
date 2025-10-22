@@ -1,0 +1,27 @@
+const informationData = {
+  image: "/src/assets/group.jpg",
+  info: [
+    {
+      label: "Asal",
+      value: "Seoul, Korea Selatan",
+    },
+    {
+      label: "Genre",
+      value: "K-pop, J-pop",
+    },
+    {
+      label: "Tahun Aktif",
+      value: "2015-Sekarang",
+    },
+    {
+      label: "Label",
+      value: "JYP Entertainment, Warner Music Japan, Republic Records",
+    },
+    {
+      label: "Fandom",
+      value: "ONCE",
+    },
+  ],
+};
+
+export default informationData;
