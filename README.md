@@ -6,8 +6,8 @@ TWICE Universe is a web platform dedicated to providing fans with comprehensive 
 
 ## 🛠️ Technologies Used
 
-- 🌐 Programming Language: JavaScript.
-- 📄 Markup Language: HTML.
-- 🎨 Stylesheet Language: CSS.
-- 💻 Software: Visual Studio Code.
-- 🚀 Deployment: Netlify.
+- 🌐 **Programming Language:** JavaScript.
+- 📄 **Markup Language:** HTML.
+- 🎨 **Stylesheet Language:** CSS.
+- 💻 **Software:** Visual Studio Code.
+- 🚀 **Deployment:** Netlify.
